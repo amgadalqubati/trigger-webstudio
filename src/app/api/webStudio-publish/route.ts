@@ -5,7 +5,7 @@ import { NextResponse } from 'next/server';
 import { configure } from "@trigger.dev/sdk/v3";
 
 configure({
-  secretKey: "tr_dev_LTd9gN3b0gDWBmi0AX8G",
+  secretKey: "tr_prod_C3fMtZLmmRSH0wgYpkab",
 });
 
 //tasks.trigger also works with the edge runtime
