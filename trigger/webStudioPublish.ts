@@ -23,7 +23,7 @@ interface WebStudioPublishResponse {
 export const webStudioPublishTask = task({
   id: "web-studio-publish",
   // Set maxDuration to handle the 3-5 minute processing time
-  maxDuration: 600, // 10 minutes in seconds (buffer for the max 5 minute processing)
+  maxDuration: 1800, // 30 minutes in seconds (buffer for the max 5 minute processing)
   queue: {
     concurrencyLimit: 1,
   },

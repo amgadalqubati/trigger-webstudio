@@ -30,7 +30,8 @@ export async function POST(req: Request) {
       {
         projectId : projectId,
         shareLink : shareLink
-      }
+      },
+      { ttl: "120m" }
     );
 
     return NextResponse.json({
